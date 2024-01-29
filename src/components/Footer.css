@@ -1,0 +1,68 @@
+/* Footer.css */
+
+.footer {
+  
+  margin-top: 10px;
+  background-color: #050000;
+  color: white;
+  padding: 40px 40px;
+}
+
+.footer-content {
+ margin-left: 220px;
+ margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Allow content to wrap to the next line on smaller screens */
+}
+
+.footer-section {
+ 
+  
+  flex: 1;
+  text-align: center;
+  margin: 10px; /* Add some spacing between sections */
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  margin: 0;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logo-container img {
+  width: 50px; /* Adjust the width of each logo as needed */
+  height: auto;
+  margin-right: 10px; /* Add margin between logos */
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px; /* Adjust the font size for the copyright text */
+  line-height: 1.5; /* Add spacing between lines */
+  border-top: 1px solid white; /* Add a white line above the footer-bottom */
+  padding-top: 10px; /* Add some padding to space out the content */
+}
+.B9{
+  color: black;
+}
+.p4{
+ 
+  margin: 30px;
+  height: 40px;
+  gap: 20px;
+padding: 10px;
+  display: flex;
+}

@@ -1,0 +1,109 @@
+/* HeroSection.css */
+
+.hero-section {
+  background-color: #f4f4f4; /* Set your desired background color */
+}
+
+.hero-section h2 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 2em;
+  margin: 0;
+}
+
+.hero-section h1 {
+  font-size: 2em;
+  margin: 0;
+  color: #ffffff; /* Set your desired text color */
+}
+
+.image-container {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-container div {
+  flex: 1;
+  margin: 10px;
+  height: 400px; /* Set your desired height */
+  background-size: cover;
+  background-position: center;
+  border: 2px solid red; /* Set border color to red */
+}
+
+.I {
+  display: flex;
+}
+
+.G,
+.H {
+  flex: 1;
+  width: 300px;
+  height: 400px; /* Set your desired height */
+  background-size: cover;
+  background-position: center;
+}
+
+.D {
+  background-color: red;
+}
+
+.E {
+  background-color: black;
+}
+
+.M {
+  padding-left: 10px;
+  padding-top: 120px; /* Adjust padding for smaller screens */
+  color: white;
+}
+
+.S {
+  margin: 0;
+  display: flex;
+}
+
+.P {
+  margin-left: 20px;
+}
+
+.Mo {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 25px;
+  color: white;
+}
+
+.ho {
+  color: rgb(229, 102, 102);
+  text-align: end;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .image-container div {
+    flex: 1 0 100%; /* Full width on smaller screens */
+  }
+
+  .G,
+  .H {
+    flex: 1 0 100%; /* Full width on smaller screens */
+  }
+
+  .S {
+    flex-direction: column;
+  }
+
+  .P {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .M {
+    padding-top: 20px; /* Adjust padding for smaller screens */
+    padding-bottom: 20px; /* Adjust padding for smaller screens */
+  }
+}

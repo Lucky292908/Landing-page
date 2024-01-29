@@ -1,0 +1,186 @@
+/* Hero.css */
+.d1 {
+  margin: 20px;
+  display: flex;
+  /* Styles for the main container */
+}
+
+.d2,
+.d3,
+.d6,
+.d7,
+.d8,
+.d9 {
+  
+  margin: 2px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Add different color overlays on the images */
+.d2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.d3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.d6::before {
+  font-size: 25px;
+  
+  content: "";
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8); /* Blue overlay */
+}
+
+.d7::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(245, 245, 245, 0.8); /* Yellow overlay */
+}
+
+
+.d9::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8); /* Cyan overlay */
+}
+
+.d2 {
+  width: 500px;
+  height: 600px;
+  background-image: url(../images/a3.jpg);
+}
+
+.d3 {
+  width: 1000px;
+  height: 600px;
+ 
+}
+
+.d4,
+.d5 {
+  display: flex;
+}
+
+.d6 {
+  width: 500px;
+  height: 300px;
+  
+  background-image: url(../images/a8.jpg);
+}
+
+.d7 {
+  width: 500px;
+  height: 300px;
+  background-image: url(../images/a8.jpg);
+}
+
+.d8 {
+  width: 500px;
+  height: 300px;
+  background-image: url(../images/a8.jpg);
+}
+
+.d9 {
+  width: 500px;
+  height: 300px;
+  background-image: url(../images/a8.jpg);
+}
+
+.B1{
+  margin-bottom: 0px;
+  margin-top: 200px;
+  margin-left: 20px;
+  color: white;
+font-size: 50px;
+}
+.B2 {
+  margin-left: 20px;
+  font-size: 22px;
+  color: white;
+}
+
+
+.d802{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  top: 0px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(233, 22, 89, 0.8); /* Magenta overlay */
+}
+.d803{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  top: 0px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.d804{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  top: 0px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.d805{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  top: 0px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+ 
+}
+.c1{
+  font-size: 22px;
+}
+.c2{
+  font-size: 16px;
+}
+.c8{
+  text-align: end;
+}

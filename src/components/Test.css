@@ -1,0 +1,57 @@
+/* Test.css */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .box1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  
+  .im {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card {
+    width: 100%; /* Set the width of the card to 100% */
+    max-width: 500px; /* Set a maximum width for the card */
+    margin-left: -40px; /* Adjust the margin for better alignment */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .cr {
+    margin-top: 30px; /* Adjust the margin between the image and the card */
+    margin-bottom: 20px; /* Adjust the margin between the card and other elements */
+  }
+  
+  .cl {
+    color: brown;
+  }
+  
+  /* Media Query for larger screens */
+  @media (min-width: 768px) {
+    .box1 {
+      flex-direction: row;
+    }
+  
+    .im {
+      width: 50%;
+    }
+  
+    .card {
+      margin-left: -160px;
+      max-width: none; /* Remove the maximum width on larger screens */
+    }
+  }
+  
