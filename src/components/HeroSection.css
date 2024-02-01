@@ -1,7 +1,7 @@
 /* HeroSection.css */
 
 .hero-section {
-  background-color: #f4f4f4; /* Set your desired background color */
+  background-color: #f4f4f4;
 }
 
 .hero-section h2 {
@@ -15,7 +15,7 @@
 .hero-section h1 {
   font-size: 2em;
   margin: 0;
-  color: #ffffff; /* Set your desired text color */
+  color: #ffffff;
 }
 
 .image-container {
@@ -28,10 +28,11 @@
 .image-container div {
   flex: 1;
   margin: 10px;
-  height: 400px; /* Set your desired height */
+  width: 100%; /* Set width to 100% */
+  height: 100%; /* Set height to 100% */
   background-size: cover;
   background-position: center;
-  border: 2px solid red; /* Set border color to red */
+  border: 2px solid red;
 }
 
 .I {
@@ -41,8 +42,8 @@
 .G,
 .H {
   flex: 1;
-  width: 300px;
-  height: 400px; /* Set your desired height */
+  width: 100%; /* Set width to 100% */
+  height: 100%; /* Set height to 100% */
   background-size: cover;
   background-position: center;
 }
@@ -57,7 +58,7 @@
 
 .M {
   padding-left: 10px;
-  padding-top: 120px; /* Adjust padding for smaller screens */
+  padding-top: 120px;
   color: white;
 }
 
@@ -83,17 +84,31 @@
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .image-container div {
-    flex: 1 0 100%; /* Full width on smaller screens */
+    flex: 1 0 calc(33.33% - 20px); /* Three items per row with 20px margin */
   }
 
   .G,
   .H {
-    flex: 1 0 100%; /* Full width on smaller screens */
+    flex: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .image-container div {
+    flex: 1 0 calc(50% - 20px); /* Two items per row with 20px margin */
+  }
+
+  .G,
+  .H {
+    flex: 1 0 100%;
   }
 
   .S {
+   
+    width: 100%;
+    height: 100%;
     flex-direction: column;
   }
 
@@ -103,7 +118,13 @@
   }
 
   .M {
-    padding-top: 20px; /* Adjust padding for smaller screens */
-    padding-bottom: 20px; /* Adjust padding for smaller screens */
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .image-container div {
+    flex: 1 0 100%; /* One item per row */
   }
 }

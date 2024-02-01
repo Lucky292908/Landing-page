@@ -51,9 +51,8 @@ cutting-edge software,
         </div>
         
       </div>
-      <div><div className='I'>
-          <div className='G' style={{ backgroundImage: `url(${image4})` }}>
-           <h1><pre className='P'>
+      <div  className='S'><div className='H' style={{ backgroundImage: `url(${image4})` }}><h1><pre className='P'>
+        <br></br>
             <br></br>
             <br></br>
             <br></br>
@@ -62,12 +61,11 @@ cutting-edge software,
             <br></br>
             <br></br>
             <br></br>
-            <br></br>
-            <br></br>
-               
-             Cloud   </pre></h1>
-          </div>
-          <div className='G' style={{ backgroundImage: `url(${image5})` }}><h1><pre className='P'>
+            
+            Cloud
+          
+  </pre></h1></div>
+          <div className='H'tex style={{ backgroundImage: `url(${image5})` }} ><h1 t><pre className='P'>
           <br></br>
             <br></br>
             <br></br>
@@ -77,10 +75,10 @@ cutting-edge software,
             <br></br>
             <br></br>
             <br></br>
-            <br></br>
-            Block-Chain   </pre></h1></div>
-          
-        </div ></div>
+            
+            Block-Chain
+            
+ </pre></h1></div></div>
         <div  className='S'><div className='H' style={{ backgroundImage: `url(${image6})` }}><h1><pre className='P'>
         <br></br>
             <br></br>

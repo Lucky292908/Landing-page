@@ -1,25 +1,21 @@
-
-
 import React from 'react';
-import './Hero.css';
+import './Ne.css';
 
 
 const Hero = () => {
   return (
-   <div className='HR'>
-      <div className='d1'>
-        <div className='d2'>
-          <p className='B1'> LATEST BLOG</p>
+    <div className='div'>
+        
+        <div className='container1'>
+       
+    <div className='g1'><p className='B1'> LATEST BLOG</p>
           <p className='B2'>
             We at AHOM Technologies Private Limited innovate our client’s business requirement.
-          </p>
-        </div>
-        <div className='d3'>
-          <div className='d4'>
-            
-            <div className='d6'>
-            <div className='d803'>
-            <p className='c1'>Top 10 Points to Consider<br></br>
+          </p></div>
+    <div className='g2'>
+    <div className='m5'>
+     
+    <p className='c1'>Top 10 Points to Consider<br></br>
 Before Hiring a Mobile App<br></br>
 Development Company
 
@@ -30,12 +26,11 @@ one that makes sure
 
 <h4 className='c8'>Read More</h4></p></p>
 </p>
+</div>
 
-              </div>
-            </div>
-            <div className='d7'>
-            <div className='d804'>
-            <p className='c1'>Machine Learning Models-<br></br>Machine Learning<br></br>
+    </div>
+    <div className='g3'>
+        <div className='m5'><p className='c1'>Machine Learning Models-<br></br>Machine Learning<br></br>
 Development
 <p className='c2'><p>Machine Learning Models make AI<br></br>
 effective in the
@@ -44,14 +39,13 @@ effective in the
 
 <h4 className='c8'>Read More</h4>
 </p></p>
-</p>
+</p></div>
 
-              </div>
-            </div>
-          </div>
-          <div className='d5'>
-            <div className='d8'>
-              <div className='d802'>
+
+    </div>
+    <div className='g4'>
+  <div className='m6'>
+ 
               <p className='c1'>Best Mobile App Development<br></br>
 Comapny - AHOM<br></br>
 Technologies
@@ -66,10 +60,12 @@ Development Comp
 
     </div>
 
-            </div>
-            <div className='d9'>
-            <div className='d805'>
-            <p className='c1'>Enterprise Digital<br></br>
+
+ 
+
+    </div>
+    <div className='g5'>
+     <div className='m5'> <p className='c1'>Enterprise Digital<br></br>
 Transformation Solutions-<br></br>AHOM Technologies
 <p className='c2'><p>Digital Transformation: Are you ready<br></br>
 for exponent
@@ -78,14 +74,15 @@ for exponent
 <br></br>
 <h4 className='c8'>Read More</h4>
 </p></p>
-</p>
+</p></div>
 
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
+     
+
+    </div>
+    
+
+      </div></div>
+   
    
   );
 };

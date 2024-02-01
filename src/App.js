@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Pro from './components/Pro';
 import Fo from './components/Fo';
+import Ne from './components/Ne';
 
 import Test from './components/Test';
 
@@ -15,10 +16,12 @@ const App = () => {
       <Header />
       <Slider />
       <HeroSection />
-      <Hero></Hero>
+      
+      <Ne></Ne>
       <Pro></Pro>
      <Test></Test>
       <Fo></Fo>
+     
       
       <Footer />
       

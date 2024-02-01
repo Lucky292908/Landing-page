@@ -5,7 +5,7 @@ import './Header.css';  // Import your CSS file
 
 const Header = () => {
   return (
-    <header>
+    <header >
       <img src={y} alt="Logo" className="logo" />
 
       {/* Navigation with dropdowns */}
